@@ -266,6 +266,9 @@ function App() {
         guesses={guesses}
         isRevealing={isRevealing}
       />
+      <p className="justify-center text-white py-10 place-self-center text-center rounded font-bold">
+        Made By Afnan Choudhury
+      </p>
       <InfoModal
         isOpen={isInfoModalOpen}
         handleClose={() => setIsInfoModalOpen(false)}
